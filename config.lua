@@ -34,14 +34,18 @@ Config.locations = {                              --(To Edit Locations, Change t
         coords = vector3(1436.06,1111.15,114.19),
         heading = 272.15,
         name = "~r~Ranch Zone",
-	},	
-	[5] = {
-		coords = vector3 (115.44,-1949.93,20.69),
-		heading = 46.96,
-		name = "~r~Grove Street",
     },
-   
-}
+    [5] = {
+        coords = vector3 (-947.58,-787.17,15.92),
+        heading = 53.73,
+        name = "~r~Skate Ramps",
+    },	
+    [6] = {
+	coords = vector3 (115.44,-1949.93,20.69),
+	heading = 46.96,
+	name = "~r~Grove Street",
+    },		
+}    
 
 Config.Weapons = {                                --(To add Weapons, copy lines 47-51, paste on line 63 and rename your weapon you'd like using https://wiki.rage.mp/index.php?title=Weapons#:~:text=Weapons%201%20Melee%202%20Handguns.%20Name%3A%20Pistol%20.50,Rifles%208%20Heavy%20Weapons%209%20Throwables%2010%20Miscellaneous )                            
     [1] = {
