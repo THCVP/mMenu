@@ -89,7 +89,7 @@ RageUI.CreateWhile(1.0, RMenu:Get('combat', 'main'), 311, function()
                 RageUI.Button("~r~Suicide", "~r~Select to commit ~r~Suicide", { }, true, function(Hovered, Active, Selected)
                     if (Selected) then
                         SetEntityHealth(PlayerPedId(), 0)
-                        Notify("~g~You ~r~Died")
+                        Notify("~r~You Died")
                     end
             end, nil)
         end
